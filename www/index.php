@@ -12,7 +12,6 @@ $result = mysqli_query($conn, $query);
   <meta charset="utf-8">
   <title>Demo</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
   <style>body{font-family:Nunito,sans-serif;min-height:90vh;align-items:center;justify-content:center;display:flex}</style>
 </head>
 
