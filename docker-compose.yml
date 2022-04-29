@@ -26,7 +26,8 @@ services:
         networks:
             - default
     phpmyadmin:
-        image: phpmyadmin/phpmyadmin:4.8
+        image: phpmyadmin
+        restart: always
         links:
             - db:db
         ports:
